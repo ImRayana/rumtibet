@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Румтибет</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+        <div class="upper-header">
+            <img src="logo.png" alt="">
+            <ul class="menu">
+                <li><a href="">Главная</a></li>
+                <li><a href="">Про гида</a></li>
+                <li><a href="">Программа тура</a></li>
+                <li><a href="">Стоимость</a></li>
+                <li><a href="">Блог</a></li>
+                <li><a href="">Контакты</a></li>
+                <li><button class="consult">Консультация</button></li>
+            </ul>
+            <img src="category.png" alt="">
+        </div>
+        <div class="main-menu">
+            <h1>Насладись прогулкой в горах с командой единомышленников</h1>
+                <div class="form-container">
+                    <div class="form-group-parent">
+                      <div class="form-group">
+                        <label for="location">Локация для тура</label>
+                        <select id="location">
+                          <option value=""disabled selected></option>
+                          <option value="location1">Локация 1</option>
+                          <option value="location2">Локация 2</option>
+                        </select>
+                      </div>
+                      <div class="name">выберите из списка</div>
+                    </div>  
+
+                    <div class="form-group-parent">
+                      <div class="form-group">
+                        <label for="date" class="date">
+                          <div>Дата похода</div>
+                          <img src="basket.png" alt="">
+                          <input type="date" id="date" class="hidden">
+                        </label>
+                      </div>
+                      <div class="name">укажите диапазон</div>
+                    </div>  
+
+                    <div class="form-group-parent">
+                      <div class="form-group">
+                        <label for="participants">Участники</label>
+                        <select id="participants">
+                          <option value="" disabled selected></option>
+                          <option value="4">4 человека</option>
+                          <option value="5">5 человек</option>
+                        </select>
+                      </div>
+                      <div class="name">минимум 4 человека</div>
+                    </div>  
+
+                    <button class="search">Найти программу</button>
+                </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="tour-programme">
+            <div class="container-for-programme">
+                <div class="for-img-vid"></div>
+                <div class="about-camp">
+                    <div>о нашем походе</div>
+                    <h2>Исследуйте все горные массивы мира вместе с нами</h2>
+                    <p>Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                    <button>Программа тура</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
