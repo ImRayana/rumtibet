@@ -20,7 +20,7 @@ header {
 }
 
 .main-menu {
-    max-width: 70vw;
+    max-width: 65vw;
 }
 
 a {
@@ -28,7 +28,7 @@ a {
 }
 
 .upper-header {
-    width: 70vw;
+    width: 65vw;
     display: flex;
     justify-content: space-between;
     flex-shrink: 1;
@@ -67,12 +67,13 @@ a {
 
 h1 {
     font-family: nextart;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    line-height: 4.1rem;
+    line-height: 4rem;
     text-align: left;
     color: #FDFDFD;
-
+    margin: 10px;
+    margin-bottom: 30px;
 }
 
   
@@ -168,21 +169,37 @@ option {
 }
 
 .tour-programme {
-    min-height: 75vh;
+    min-height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-shrink: 1;
 }
 
+.first {
+    min-height: 90vh;
+}
+
 .container-for-programme {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 70vw;
+    max-width: 65vw;
 }
 
 .about-camp {
     font-family: "Nunito Sans", serif;
+}
+
+button {
+    border: 0px;
+}
+
+.one {
+    grid-column: 2;
+}
+
+.two {
+    grid-column: 1;
 }
 
 .about-camp > div {
@@ -215,4 +232,168 @@ option {
     padding: 2% 5%;
     font-family: "Nunito Sans", serif;
     border-radius: 4px;
+}
+
+.for-img-vid {
+    position: relative;
+}
+
+
+
+img[src='Rectangle5.png'] {
+    position: absolute;
+    bottom: 50px;
+}
+
+iframe {
+    z-index: 1;
+    position: absolute;
+    bottom: -100px;
+    right: 100px;
+    border-radius: 25px;
+}
+
+.second {
+    background-color: #F3F5F4;
+}
+
+.container-for-terms {
+    display: flex;
+}
+
+.terms > h2 {
+    color: #18121E;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.terms > p {
+    font-size: 0.8rem;
+    color: #000000;
+}
+
+.container-for-terms {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px 15px;
+    margin-bottom: 30px;
+}
+
+img[src='Group16.png'] {
+    width: 50px;
+    height: 50px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+img[src='Group17.png'] {
+    width: 50px;
+    height: 50px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+img[src='Group18.png'] {
+    width: 50px;
+    height: 50px;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.a {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.b {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.c {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+/* .for-img {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+} */
+
+/* 
+img[src='Rectangle8.png'] {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+img[src='Rectangle9.png'] {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+img[src='Rectangle10.png'] {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+img[src='Rectangle11.png'] {
+    grid-column: 2;
+    grid-row: 2;
+} */
+
+.firstdiv {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.seconddiv {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.for-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.version {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.version > button {
+    padding: 1rem 2.2rem;
+}
+
+.picture {
+    position: relative;
 }
