@@ -368,12 +368,10 @@ img[src='Rectangle11.png'] {
 
 .carousel {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 50px;
     margin-top: 50px;
     gap: 10px;
-    overflow-x: scroll;
 }
 
 .third {

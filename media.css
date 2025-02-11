@@ -71,8 +71,9 @@
     }
 
     .carousel {
+        flex-wrap: nowrap;
         overflow-x: scroll;
-        overflow-x: hidden;
+        max-width: 500px;
     }
   }
 
